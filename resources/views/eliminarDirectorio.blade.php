@@ -28,11 +28,11 @@
             </thead>
             <tbody>                
                 <tr>
-                    <th scope="row"></th>
+                    <th scope="row">{{ $directorioEliminar->id }}</th>
                     <td>{{ $directorioEliminar->nombre }}</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>{{ $directorioEliminar->apellido }}</td>
+                    <td>{{ $directorioEliminar->correo }}</td>
+                    <td>{{ $directorioEliminar->telefono }}</td>
                   </tr>
                 
               
